@@ -12,7 +12,7 @@ class Roliador:
         if self.faces < 1:
             return [0]
         for i in range(dices):
-            number = random.randint(1, self.faces)
+            number = random.randint(5, self.faces)
             if number == self.repeat:
                 result = [number]
                 while number == self.repeat:
@@ -31,7 +31,7 @@ class Roliador:
                 results.append({self.faces: self.roll(1)[0]})
         return results
 
-    def pretty_print_discord(self, results):
+    def pretty_print_discord(self, author, results):
         respond = ''
         for i in range(results.__len__()):
             if isinstance(results[i], list):
@@ -45,15 +45,15 @@ class Roliador:
                 respond += '(' + str(repeat_sum) + ')'
             else:
                 respond += ' ' + str(results[i])
-        respond = "```ruby\nD" + str(self.faces) + ":" + respond + "```"
+        respond = "```ruby\n" + author.display_name + '\nD' + str(self.faces) + ":" + respond + "```"
         return respond
 
-    def custom_pretty_print_discord(self, results):
+    def custom_pretty_print_discord(self, author, results):
         respond = ''
         for roll in range(results.__len__()):
             for face in results[roll].keys():
                 respond += 'D' + str(face) + ": " + str(results[roll][face]) + "\t"
-        respond = "```ruby\n" + respond + "```"
+        respond = "```ruby\n" + author.display_name + '\n' + respond + "```"
         return respond
 
     def profeta(self, number: int):

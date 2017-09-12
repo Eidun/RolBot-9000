@@ -17,36 +17,38 @@ async def on_ready():
     print('------')
 
 
-@bot.command()
-async  def roll(number: int, modo="Normal"):
+@bot.command(pass_context=True)
+async  def roll(ctx, number: int, modo="Normal"):
     """Tira un número de D10"""
     roliador = Roliador()
+    if modo == "cobarde":
+        roliador.repeat = -1
     if(modo == "PROFETA"):
        respond = roliador.profeta(number)
     else:
         results = roliador.roll(number)
-        respond = roliador.pretty_print_discord(results)
+        respond = roliador.pretty_print_discord(ctx.message.author, results)
 
     await bot.say(respond)
 
 
-@bot.command()
-async  def NdN(xDy: str):
+@bot.command(pass_context=True)
+async  def ndn(ctx, xdy: str):
     """Tira formato NdN"""
-    number, faces = xDy.split('D', 1)
+    number, faces = xdy.split('d', 1)
     roliador = Roliador(int(faces), -1)
     results = roliador.roll(int(number))
-    respond = roliador.pretty_print_discord(results)
+    respond = roliador.pretty_print_discord(ctx.message.author, results)
 
     await bot.say(respond)
 
 
-@bot.command()
-async  def custom(*dices: int):
+@bot.command(pass_context=True)
+async  def custom(ctx, *dices: int):
     """Tira lo que pongas"""
     roliador = Roliador(10, -1)
     results = roliador.custom_roll(dices)
-    respond = roliador.custom_pretty_print_discord(results)
+    respond = roliador.custom_pretty_print_discord(ctx.message.author, results)
 
     await bot.say(respond)
 
