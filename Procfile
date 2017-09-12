@@ -1,1 +1,1 @@
-web: pythonn rolbot.py
+worker: python rolbot.py
