@@ -52,4 +52,44 @@ async  def custom(ctx, *dices: int):
 
     await bot.say(respond)
 
+@bot.command(pass_context=True)
+async def dossier(ctx, name:str):
+    """Muestra las páginas del dossier que indiques.
+    Grupos disponibles:
+        agencia
+        d13
+        oversight
+        zehcs gebet
+        deadcell
+        ektors
+        ordo
+        oversight
+        utopia
+        otros """
+    repo = "http://akuma.host56.com/dossier/";
+    if (name == "agencia"):
+        salida = repo + "Agencia_1.png \n"+ repo + "Agencia_2.png";
+    elif (name == "d13"):
+        salida = repo + "D13_1.png \n"+ repo + "D13_2.png";
+    elif (name == "oversight"):
+        salida = repo + "Agencia_1.png \n"+ repo + "Agencia_2.png";
+    elif (name == "zechs gebet"):
+        salida = repo + "MERC-6Gebet.png";
+    elif name == "deadcell":
+        salida = repo + "MERC-Dead%20Cell.png";
+    elif name == "ektors":
+        salida = repo + "MERC-Ektors.png";
+    elif name == "ordo":
+        salida = repo + "Ordo.png";
+    elif name == "oversight":
+        salida = repo + "Oversight.png";
+    elif name == "utopia":
+        salida = repo + "Utopia.png";
+    elif name == "otros":
+        salida = repo + "Otros.png \n" + repo + "Otros_2.png";
+    else:
+        salida = "pero qué mierdas dices!";
+    await bot.say(salida);
+
+
 bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJfVEA.uH_oYeDr96fSSI8fPoJ8x9RQ1vk')
