@@ -2,6 +2,8 @@ import discord
 from discord.ext import commands
 import random
 from roliador import Roliador
+from dossier import  Dossier
+
 description = '''Soy RolBot9000, un ente interdimensional capaz de viajar entre los diferentes universos y mundos.
 
 Tengo la capacidad analítica de predecir resultados heróicos y fatales si se me solicita. Bip...Bop...'''
@@ -52,8 +54,9 @@ async  def custom(ctx, *dices: int):
 
     await bot.say(respond)
 
-@bot.command(pass_context=True)
-async def dossier(ctx, name:str):
+
+@bot.command()
+async def dossier(name:str):
     """Muestra las páginas del dossier que indiques.
     Grupos disponibles:
         agencia
@@ -66,30 +69,10 @@ async def dossier(ctx, name:str):
         oversight
         utopia
         otros """
-    repo = "http://akuma.host56.com/dossier/";
-    if (name == "agencia"):
-        salida = repo + "Agencia_1.png \n"+ repo + "Agencia_2.png";
-    elif (name == "d13"):
-        salida = repo + "D13_1.png \n"+ repo + "D13_2.png";
-    elif (name == "oversight"):
-        salida = repo + "Agencia_1.png \n"+ repo + "Agencia_2.png";
-    elif (name == "zechs gebet"):
-        salida = repo + "MERC-6Gebet.png";
-    elif name == "deadcell":
-        salida = repo + "MERC-Dead%20Cell.png";
-    elif name == "ektors":
-        salida = repo + "MERC-Ektors.png";
-    elif name == "ordo":
-        salida = repo + "Ordo.png";
-    elif name == "oversight":
-        salida = repo + "Oversight.png";
-    elif name == "utopia":
-        salida = repo + "Utopia.png";
-    elif name == "otros":
-        salida = repo + "Otros.png \n" + repo + "Otros_2.png";
-    else:
-        salida = "pero qué mierdas dices!";
-    await bot.say(salida);
 
+    await bot.say(Dossier().get_dossier(name))
 
-bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJfVEA.uH_oYeDr96fSSI8fPoJ8x9RQ1vk')
+# RolBot-9000
+bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJnDKw.4ehhHUJtoWT7rslw-gzRinIrZVE')
+# Testbot-9000
+# bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')

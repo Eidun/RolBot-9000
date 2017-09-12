@@ -23,11 +23,11 @@ class Roliador:
             results.append(result)
         return results
 
-    def custom_roll(self, *dices: int):
+    def custom_roll(self, *dices):
         results = []
         for dice in dices:
-            for count, diceint in enumerate(dice):
-                self.faces = int(diceint)
+            for count, dice_int in enumerate(dice):
+                self.faces = int(dice_int)
                 results.append({self.faces: self.roll(1)[0]})
         return results
 
