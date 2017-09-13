@@ -94,7 +94,7 @@ async def oceanic(alias):
         embed.add_field(name="Alias", value=info[5], inline=True)
         embed.add_field(name="Posición", value=info[6], inline=True)
         embed.add_field(name='Descripción',value=info[7])
-        embed.set_thumbnail(url=info[8])
+        embed.set_image(url=info[8])
 
     await bot.say(embed=embed)
 
