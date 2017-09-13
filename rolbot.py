@@ -4,6 +4,7 @@ from discord.ext import commands
 import random
 from roliador import Roliador
 from dossier import  Dossier
+from info_card import InfoCard
 
 description = '''Soy RolBot9000, un ente interdimensional capaz de viajar entre los diferentes universos y mundos.
 
@@ -68,20 +69,30 @@ async def empanado(loser: discord.Member):
 
 
 @bot.command()
-async def info(name):
+async def oceanic(name):
     """Información sobre el personaje requerido"""
-    embed = discord.Embed(
-        title="Oversight | Sección 13",
-        description='La agente más deprimente de Oversight',
-        color=0x4C0099,
-    )
-    url = 'https://i.imgur.com/9mfg8T1.png'
-    embed.add_field(name="Nombre", value='Miss Misery', inline=True)
-    embed.add_field(name="Alias", value='Missy', inline=True)
-    embed.add_field(name="Posición", value='Oficial', inline=True)
-    embed.add_field(name='Descripción',
-                    value='Una persona que tras haberlo perdido todo, buscó la felicidad en la desgracia ajena.')
-    embed.set_thumbnail(url=url)
+
+    info = InfoCard(name).get_card()
+    print(info)
+    if info[1] == 'not found':
+        embed = discord.Embed(
+            title="Oceanic | Servicios",
+            description="Lamentamos comunicarle que no tenemos información al respecto.",
+            color=0xFFFFFF
+        )
+        embed.add_field(name="¿Quiere proporcionárnosla?", value="https://infobot9000.herokuapp.com")
+    else:
+        embed = discord.Embed(
+            title=info[1],
+            description=info[2],
+            color=0x4C0099,
+        )
+        embed.add_field(name="Nombre", value=info[4], inline=True)
+        embed.add_field(name="Alias", value=info[5], inline=True)
+        embed.add_field(name="Posición", value=info[6], inline=True)
+        embed.add_field(name='Descripción',
+                        value=info[7])
+        embed.set_thumbnail(url=info[8])
 
     await bot.say(embed=embed)
 
