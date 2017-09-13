@@ -1,4 +1,5 @@
 import discord
+import asyncio
 from discord.ext import commands
 import random
 from roliador import Roliador
@@ -10,6 +11,8 @@ Tengo la capacidad analítica de predecir resultados heróicos y fatales si se m
 bot = commands.Bot(command_prefix='!', description=description)
 
 
+
+
 @bot.event
 async def on_ready():
     print('RolBot9000 iniciándose...')
@@ -17,6 +20,7 @@ async def on_ready():
     print(bot.user.id)
     print('Sistemas 100%')
     print('------')
+    await bot.change_presence(game=discord.Game(name='rol con vosotros'))
 
 
 @bot.command(pass_context=True)
@@ -53,6 +57,14 @@ async  def custom(ctx, *dices: int):
     respond = roliador.custom_pretty_print_discord(ctx.message.author, results)
 
     await bot.say(respond)
+
+
+@bot.command()
+async def empanado(loser: discord.Member):
+    """Menciona a un usuario que esté empanado."""
+    for i in range(3):
+        await bot.send_message(loser, 'Empanado, responde')
+        await asyncio.sleep(3)
 
 
 @bot.command()
