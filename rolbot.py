@@ -72,8 +72,7 @@ async def empanado(loser: discord.Member):
 async def oceanic(name):
     """Información sobre el personaje requerido"""
 
-    info = InfoCard(name).get_card()
-    print(info)
+    info = list(InfoCard(name).get_card())
     if info[1] == 'not found':
         embed = discord.Embed(
             title="Oceanic | Servicios",
@@ -83,7 +82,7 @@ async def oceanic(name):
         embed.add_field(name="¿Quiere proporcionárnosla?", value="https://infobot9000.herokuapp.com")
     else:
         for i in range(info.__len__()):
-            if info[i] == None:
+            if info[i] is None or info[i] == "":
                 info[i] = "Desconocido"
 
         embed = discord.Embed(
@@ -94,31 +93,10 @@ async def oceanic(name):
         embed.add_field(name="Nombre", value=info[4], inline=True)
         embed.add_field(name="Alias", value=info[5], inline=True)
         embed.add_field(name="Posición", value=info[6], inline=True)
-        embed.add_field(name='Descripción',
-                        value=info[7])
+        embed.add_field(name='Descripción',value=info[7])
         embed.set_thumbnail(url=info[8])
 
     await bot.say(embed=embed)
-
-
-@bot.command()
-async def nueva_info(organizacion='Desconocida', detalles='Desconocidos', color=0x4C0099, nombre='Desconocido',
-                     alias='Desconocido', posicion='Desconocida', descripcion='Sin datos',
-                     url_imagen='https://i.imgur.com/yPSG41I.png'):
-
-    embed = discord.Embed(
-        title=organizacion,
-        description=detalles,
-        color=color,
-    )
-    embed.add_field(name="Nombre", value=nombre, inline=True)
-    embed.add_field(name="Alias", value=alias, inline=True)
-    embed.add_field(name="Posición", value=posicion, inline=True)
-    embed.add_field(name='Descripción', value=descripcion)
-    embed.set_thumbnail(url=url_imagen)
-
-    await bot.say(embed=embed)
-
 
 @bot.command()
 async def dossier(name:str):

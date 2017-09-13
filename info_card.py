@@ -1,6 +1,8 @@
 import psycopg2
 import urllib.parse as urlparse
 import os
+
+
 class InfoCard:
 
     def __init__(self, name: str):
