@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="863d688f-8c06-41c5-b567-0134a40285c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info_card.py" afterPath="$PROJECT_DIR$/info_card.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rolbot.py" afterPath="$PROJECT_DIR$/rolbot.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,11 +41,11 @@
       <file leaf-file-name="info_card.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/info_card.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="449">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1505338622242" expanded="true" signature="758:792" ph="SELECT * fro... infos" />
+                <marker date="1505338814930" expanded="true" signature="758:792" ph="SELECT * fro... infos" />
               </folding>
             </state>
           </provider>
@@ -554,7 +553,7 @@
           <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1505338622242" expanded="true" signature="758:792" ph="SELECT * fro... infos" />
+            <marker date="1505338814930" expanded="true" signature="758:792" ph="SELECT * fro... infos" />
           </folding>
         </state>
       </provider>
@@ -751,11 +750,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/info_card.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="449">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1505338622242" expanded="true" signature="758:792" ph="SELECT * fro... infos" />
+            <marker date="1505338814930" expanded="true" signature="758:792" ph="SELECT * fro... infos" />
           </folding>
         </state>
       </provider>

@@ -33,7 +33,7 @@ class InfoCard:
 
         cur = conn.cursor()
         statement = "SELECT * from infos where alias=%s"
-        cur.execute(statement, (self.name,))
+        cur.execute(statement, (self.alias,))
         print(cur.rowcount)
         rows = cur.fetchall()
 
