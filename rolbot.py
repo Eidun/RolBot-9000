@@ -82,6 +82,10 @@ async def oceanic(name):
         )
         embed.add_field(name="¿Quiere proporcionárnosla?", value="https://infobot9000.herokuapp.com")
     else:
+        for i in range(info.__len__()):
+            if info[i] == None:
+                info[i] = "Desconocido"
+
         embed = discord.Embed(
             title=info[1],
             description=info[2],
