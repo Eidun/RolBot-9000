@@ -67,6 +67,25 @@ async def empanado(loser: discord.Member):
         await asyncio.sleep(3)
 
 
+@bot.command(pass_context=True)
+async def info(ctx, name):
+    """Información sobre el personaje requerido"""
+    embed = discord.Embed(
+        title="Oversight | Sección 13",
+        description='La agente más deprimente de Oversight',
+        color=0x4C0099,
+    )
+    url = 'https://i.imgur.com/9mfg8T1.png'
+    embed.add_field(name="Agente", value='Miss Misery', inline=True)
+    embed.add_field(name="Alias", value='Missy', inline=True)
+    embed.add_field(name="Rango", value='Oficial', inline=True)
+    embed.add_field(name='Datos',
+                    value='Una persona que tras haberlo perdido todo, buscó la felicidad en la desgracia ajena.')
+    embed.set_thumbnail(url=url)
+
+    await bot.say(embed=embed)
+
+
 @bot.command()
 async def dossier(name:str):
     """Muestra las páginas del dossier que indiques.
