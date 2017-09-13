@@ -67,8 +67,8 @@ async def empanado(loser: discord.Member):
         await asyncio.sleep(3)
 
 
-@bot.command(pass_context=True)
-async def info(ctx, name):
+@bot.command()
+async def info(name):
     """Información sobre el personaje requerido"""
     embed = discord.Embed(
         title="Oversight | Sección 13",
@@ -76,12 +76,31 @@ async def info(ctx, name):
         color=0x4C0099,
     )
     url = 'https://i.imgur.com/9mfg8T1.png'
-    embed.add_field(name="Agente", value='Miss Misery', inline=True)
+    embed.add_field(name="Nombre", value='Miss Misery', inline=True)
     embed.add_field(name="Alias", value='Missy', inline=True)
-    embed.add_field(name="Rango", value='Oficial', inline=True)
-    embed.add_field(name='Datos',
+    embed.add_field(name="Posición", value='Oficial', inline=True)
+    embed.add_field(name='Descripción',
                     value='Una persona que tras haberlo perdido todo, buscó la felicidad en la desgracia ajena.')
     embed.set_thumbnail(url=url)
+
+    await bot.say(embed=embed)
+
+
+@bot.command()
+async def nueva_info(organizacion='Desconocida', detalles='Desconocidos', color=0x4C0099, nombre='Desconocido',
+                     alias='Desconocido', posicion='Desconocida', descripcion='Sin datos',
+                     url_imagen='https://i.imgur.com/yPSG41I.png'):
+
+    embed = discord.Embed(
+        title=organizacion,
+        description=detalles,
+        color=color,
+    )
+    embed.add_field(name="Nombre", value=nombre, inline=True)
+    embed.add_field(name="Alias", value=alias, inline=True)
+    embed.add_field(name="Posición", value=posicion, inline=True)
+    embed.add_field(name='Descripción', value=descripcion)
+    embed.set_thumbnail(url=url_imagen)
 
     await bot.say(embed=embed)
 
@@ -104,6 +123,6 @@ async def dossier(name:str):
     await bot.say(Dossier().get_dossier(name))
 
 # RolBot-9000
-bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJnDKw.4ehhHUJtoWT7rslw-gzRinIrZVE')
+# bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJnDKw.4ehhHUJtoWT7rslw-gzRinIrZVE')
 # Testbot-9000
-# bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')
+bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')
