@@ -30,8 +30,8 @@
       <file leaf-file-name="rolbot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rolbot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+            <state relative-caret-position="279">
+              <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -42,11 +42,11 @@
       <file leaf-file-name="info_card.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/info_card.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1505338460898" expanded="true" signature="755:790" ph="SELECT * fro... infos" />
+                <marker date="1505338622242" expanded="true" signature="758:792" ph="SELECT * fro... infos" />
               </folding>
             </state>
           </provider>
@@ -554,7 +554,7 @@
           <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1505338460898" expanded="true" signature="755:790" ph="SELECT * fro... infos" />
+            <marker date="1505338622242" expanded="true" signature="758:792" ph="SELECT * fro... infos" />
           </folding>
         </state>
       </provider>
@@ -741,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rolbot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        <state relative-caret-position="279">
+          <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -751,11 +751,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/info_card.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1505338460898" expanded="true" signature="755:790" ph="SELECT * fro... infos" />
+            <marker date="1505338622242" expanded="true" signature="758:792" ph="SELECT * fro... infos" />
           </folding>
         </state>
       </provider>

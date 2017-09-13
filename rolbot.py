@@ -69,10 +69,10 @@ async def empanado(loser: discord.Member):
 
 
 @bot.command()
-async def oceanic(name):
+async def oceanic(alias):
     """Información sobre el personaje requerido"""
 
-    info = list(InfoCard(name).get_card())
+    info = list(InfoCard(alias).get_card())
     if info[1] == 'not found':
         embed = discord.Embed(
             title="Oceanic | Servicios",

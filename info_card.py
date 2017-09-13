@@ -5,8 +5,8 @@ import os
 
 class InfoCard:
 
-    def __init__(self, name: str):
-        self.name = name
+    def __init__(self, alias: str):
+        self.alias = alias
         self.get_card()
 
     def get_card(self):
@@ -32,7 +32,7 @@ class InfoCard:
             port=port)
 
         cur = conn.cursor()
-        statement = "SELECT * from infos where nombre=%s"
+        statement = "SELECT * from infos where alias=%s"
         cur.execute(statement, (self.name,))
         print(cur.rowcount)
         rows = cur.fetchall()
