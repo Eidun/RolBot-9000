@@ -11,7 +11,6 @@ class InfoCard:
 
     def get_card(self):
 
-        """
         url = urlparse.urlparse(os.environ['DATABASE_URL'])
         database = url.path[1:]
         user = url.username
@@ -24,7 +23,7 @@ class InfoCard:
         password = 'rol'
         host = 'localhost'
         port = 5432
-
+        """
         conn = psycopg2.connect(
             database=database,
             user=user,

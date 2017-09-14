@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="863d688f-8c06-41c5-b567-0134a40285c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/00351afe-9399-4feb-a052-e307b381930f/_metadata_/metadata_i.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info_card.py" afterPath="$PROJECT_DIR$/info_card.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rolbot.py" afterPath="$PROJECT_DIR$/rolbot.py" />
     </list>
@@ -84,11 +77,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rolbot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rolbot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rolbot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+            <state relative-caret-position="449">
+              <caret line="126" column="2" lean-forward="false" selection-start-line="126" selection-start-column="2" selection-end-line="126" selection-end-column="2" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -96,14 +89,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info_card.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="info_card.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/info_card.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1505384781779" expanded="true" signature="783:830" ph="SELECT * fro... infos" />
+                <marker date="1505385095029" expanded="true" signature="782:829" ph="SELECT * fro... infos" />
               </folding>
             </state>
           </provider>
@@ -131,8 +124,8 @@
       <list>
         <option value="$PROJECT_DIR$/roliador.py" />
         <option value="$PROJECT_DIR$/dossier.py" />
-        <option value="$PROJECT_DIR$/info_card.py" />
         <option value="$PROJECT_DIR$/rolbot.py" />
+        <option value="$PROJECT_DIR$/info_card.py" />
       </list>
     </option>
   </component>
@@ -453,7 +446,7 @@
           <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1505384781779" expanded="true" signature="783:830" ph="SELECT * fro... infos" />
+            <marker date="1505385095029" expanded="true" signature="782:829" ph="SELECT * fro... infos" />
           </folding>
         </state>
       </provider>
@@ -618,7 +611,7 @@
           <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1505384781779" expanded="true" signature="783:830" ph="SELECT * fro... infos" />
+            <marker date="1505385095029" expanded="true" signature="782:829" ph="SELECT * fro... infos" />
           </folding>
         </state>
       </provider>
@@ -803,23 +796,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/info_card.py">
+    <entry file="file://$PROJECT_DIR$/rolbot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="449">
+          <caret line="126" column="2" lean-forward="false" selection-start-line="126" selection-start-column="2" selection-end-line="126" selection-end-column="2" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1505384781779" expanded="true" signature="783:830" ph="SELECT * fro... infos" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rolbot.py">
+    <entry file="file://$PROJECT_DIR$/info_card.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1505385095029" expanded="true" signature="782:829" ph="SELECT * fro... infos" />
           </folding>
         </state>
       </provider>
