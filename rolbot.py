@@ -5,6 +5,7 @@ import random
 from roliador import Roliador
 from dossier import  Dossier
 from info_card import InfoCard
+from values import MODE
 
 description = '''Soy RolBot9000, un ente interdimensional capaz de viajar entre los diferentes universos y mundos.
 
@@ -121,7 +122,10 @@ async def dossier(name:str):
 
     await bot.say(Dossier().get_dossier(name))
 
-# RolBot-9000
-bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJnDKw.4ehhHUJtoWT7rslw-gzRinIrZVE')
-# Testbot-9000
-# bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')
+
+if MODE == 0:
+    # RolBot-9000
+    bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJnDKw.4ehhHUJtoWT7rslw-gzRinIrZVE')
+else:
+    # Testbot-9000
+    bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="863d688f-8c06-41c5-b567-0134a40285c1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_adapter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/values.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info_card.py" afterPath="$PROJECT_DIR$/info_card.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rolbot.py" afterPath="$PROJECT_DIR$/rolbot.py" />
     </list>
@@ -13,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/RolBot_9000$rolbot.coverage" NAME="rolbot Coverage Results" MODIFIED="1505384948043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RolBot_9000$rolbot.coverage" NAME="rolbot Coverage Results" MODIFIED="1505387469335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -77,26 +80,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rolbot.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rolbot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rolbot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="126" column="2" lean-forward="false" selection-start-line="126" selection-start-column="2" selection-end-line="126" selection-end-column="2" />
+            <state relative-caret-position="1870">
+              <caret line="110" column="23" lean-forward="true" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info_card.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/info_card.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1505385095029" expanded="true" signature="782:829" ph="SELECT * fro... infos" />
               </folding>
             </state>
           </provider>
@@ -124,6 +114,9 @@
       <list>
         <option value="$PROJECT_DIR$/roliador.py" />
         <option value="$PROJECT_DIR$/dossier.py" />
+        <option value="$PROJECT_DIR$/db_connection.py" />
+        <option value="$PROJECT_DIR$/db_adapter.py" />
+        <option value="$PROJECT_DIR$/values.py" />
         <option value="$PROJECT_DIR$/rolbot.py" />
         <option value="$PROJECT_DIR$/info_card.py" />
       </list>
@@ -395,7 +388,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21321961" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -445,8 +438,7 @@
         <state relative-caret-position="527">
           <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1505385095029" expanded="true" signature="782:829" ph="SELECT * fro... infos" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -610,8 +602,7 @@
         <state relative-caret-position="211">
           <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1505385095029" expanded="true" signature="782:829" ph="SELECT * fro... infos" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -796,23 +787,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rolbot.py">
+    <entry file="file://$PROJECT_DIR$/values.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="126" column="2" lean-forward="false" selection-start-line="126" selection-start-column="2" selection-end-line="126" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info_card.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_adapter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1505385095029" expanded="true" signature="782:829" ph="SELECT * fro... infos" />
+            <marker date="1505387082387" expanded="true" signature="1024:1071" ph="SELECT * fro... infos" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rolbot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" column="23" lean-forward="true" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
