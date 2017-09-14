@@ -1,0 +1,165 @@
+{
+	"entrenamientos": [
+		{
+			"clan": "Cangrejo",
+			"escuelas": [
+				{
+					"escuela": "Escuela Bushi Hida",
+					"grupo": "D13 (Agentes)"
+				}, {
+					"escuela": "Escuela Cortesano Yasuki",
+					"grupo": "D13 (Espias)"
+				}, {
+					"escuela": "Escuela Bushi Hiruma",
+					"grupo": "Shinsengumi: Higoi"
+				}, {
+					"escuela": "Escuela Shugenja Kuni",
+					"grupo": "Genbu"
+				}
+			]
+		}, {
+			"clan": "Dragon",
+			"escuelas": [{
+					"escuela": "Escuela Bushi Mirumoto",
+					"grupo": "Shinsengumi: Kigakatsu"
+				}, {
+					"escuela": "Escuela Investigador Kitsuki)",
+					"grupo": "Iglesia (Inquisidores"
+				}, {
+					"escuela": "Escuela de tatuajes Togashi",
+					"grupo": "Iglesia (Agentes)"
+				}, {
+					"escuela": "Escuela shugenja Tamori",
+					"grupo": "Seiryu"
+				}
+			]
+		}, {
+			"clan": "Escorpion",
+			"escuelas": [{
+					"escuela": "Escuela Bushi Bayushi",
+					"grupo": "Shinsengumi: Ikazuchi"
+				}, {
+					"escuela": "Escuela Cortesano Bayushi",
+					"grupo": "Thule (Espias)"
+				}, {
+					"escuela": "Escuela infiltrador Soshuro",
+					"grupo": "Thule (Agentes)"
+				}, {
+					"escuela": "Escuela shugenja Soshi",
+					"grupo": "Orochi"
+				}
+			]
+		}, {
+			"clan": "Fenix",
+			"escuelas": [{
+					"escuela": "Escuela Bushi Shiba",
+					"grupo": "La Agencia (Agentes)"
+				}, {
+					"escuela": "Escuela conocimiento Asako",
+					"grupo": "La Agencia (Espias)"
+				}, {
+					"escuela": "Escuela shugenja Agasha",
+					"grupo": "Shinsengumi: Kitsunebi"
+				}, {
+					"escuela": "Escuela shugenja Isawa",
+					"grupo": "Suzaku"
+				}
+			]
+		}, {
+			"clan": "Grulla",
+			"escuelas": [{
+					"escuela": "Escuela Bushi Kakita ",
+					"grupo": "Shinsengumi: Aimura"
+				}, {
+					"escuela": "Escuela cortesano Doji",
+					"grupo": "La Agencia (Espias)"
+				}, {
+					"escuela": "Escuela  de hierro Daidoji",
+					"grupo": "La Agencia (Agentes)"
+				}, {
+					"escuela": "Escuela shugenja Asahina",
+					"grupo": "Inari"
+				}
+			]
+		}, {
+			"clan": "Leon",
+			"escuelas": [{
+					"escuela": "Escuela Bushi Akodo",
+					"grupo": "Shinsengumi: Ogami"
+				}, {
+					"escuela": "Escuela de bardo Ikoma",
+					"grupo": "Oversight (Espias)"
+				}, {
+					"escuela": "Escuela berserker Matsu",
+					"grupo": "Oversight (Agentes)"
+				}, {
+					"escuela": "Escuela shugenja Kitsu",
+					"grupo": "Byakko"
+				}
+			]
+		}, {
+			"clan": "Mantis",
+			"escuelas": [{
+					"escuela": "Escuela Bushi Yoritomo",
+					"grupo": "Shinsengumi:Kuromamushi"
+				}, {
+					"escuela": "Escuela cortesano Yoritomo",
+					"grupo": "Oversight (Espias)"
+				}, {
+					"escuela": "Escuela de tiradores Yoritomo",
+					"grupo": "Oversight (Agentes)"
+				}, {
+					"escuela": "Escuela shugenja Moshi",
+					"grupo": "Karura"
+				}
+			]
+		}, {
+			"clan": "Unicornio",
+			"escuelas": [{
+					"escuela": "Escuela Bushi Moto",
+					"grupo": "Oversight (Agentes)"
+				}, {
+					"escuela": "Escuela emisario Ide",
+					"grupo": "Oversight (Espias)"
+				}, {
+					"escuela": "Escuela de la doncella de batalla Utaku",
+					"grupo": "Shinsengumi: Yokohana"
+				}, {
+					"escuela": "Escuela shugenja Iuchi",
+					"grupo": "Ookami"
+				}
+			]
+		}, {
+			"clan": "Araña",
+			"escuelas": [{
+					"escuela": "Escuela Bushi Daigotsu",
+					"grupo": "Ikkitousen (Samurai)"
+				}, {
+					"escuela": "Escuela Cortesano Daigotsu",
+					"grupo": "Ikkitousen (Espia)"
+				}, {
+					"escuela": "Escuela de los monjes araña",
+					"grupo": "Shinsengumi: Yamashiro"
+				}, {
+					"escuela": "Escuela araña Chuda ",
+					"grupo": "Tsukiyomi"
+				}
+			]
+		}, {
+			"clan": "Clan Menor:Buey",
+			"escuelas": [{
+					"escuela": "Escuela Bushi Morito",
+					"grupo": "Shinsengumi: Shiroboshi"
+				}
+			]
+		}, {
+			"clan": "Clan imperial:Seppun",
+			"escuelas": [{
+					"escuela": "Escuela shugenja Seppun",
+					"grupo": "Kyomu"
+				}
+			]
+		}
+	],
+	"nota": "Los clanes menores y ronin quedaran para organizaciones menores y mercenarios.\nDebido a sus condiciones mas abiertas,alguien con los suficientes contactos o influencia puede aprender de ellas."
+}

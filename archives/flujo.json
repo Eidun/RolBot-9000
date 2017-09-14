@@ -1,0 +1,26 @@
+{
+	"flujo_de_creacion": {
+
+		"elemento": [{
+				"id": 1,
+				"value": "Tiradas de historial"
+			}, {
+				"id": 2,
+				"value": "Crear arquetipo"
+			}, {
+				"id": 3,
+				"value": "Elegir ventajas y desventajas"
+			}, {
+				"id": 4,
+				"value": "Gastar 36PP en habilidades"
+			}, {
+				"id": 5,
+				"value": "Recibir tu entrenamiento (Hablar con master)"
+			}, {
+				"id": 6,
+				"value": "Convertir tus puntos akuma en PPs y usarlos"
+			}
+		]
+	}
+
+}
