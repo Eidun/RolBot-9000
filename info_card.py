@@ -5,12 +5,13 @@ import os
 
 class InfoCard:
 
-    def __init__(self, alias: str):
-        self.alias = alias
+    def __init__(self, identificador: str):
+        self.identificador = identificador
         self.get_card()
 
     def get_card(self):
 
+        """
         url = urlparse.urlparse(os.environ['DATABASE_URL'])
         database = url.path[1:]
         user = url.username
@@ -23,7 +24,7 @@ class InfoCard:
         password = 'rol'
         host = 'localhost'
         port = 5432
-        """
+
         conn = psycopg2.connect(
             database=database,
             user=user,
@@ -32,9 +33,8 @@ class InfoCard:
             port=port)
 
         cur = conn.cursor()
-        statement = "SELECT * from infos where alias=%s"
-        cur.execute(statement, (self.alias,))
-        print(cur.rowcount)
+        statement = "SELECT * from infos where alias=%s or nombre=%s"
+        cur.execute(statement, (self.identificador, self.identificador))
         rows = cur.fetchall()
 
         result = []

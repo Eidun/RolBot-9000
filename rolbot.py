@@ -69,10 +69,16 @@ async def empanado(loser: discord.Member):
 
 
 @bot.command()
-async def oceanic(alias):
+async def oceanic(*identificadores: str):
     """Información sobre el personaje requerido"""
 
-    info = list(InfoCard(alias).get_card())
+    full_ident = list(identificadores)
+    identificador = ''
+    for ident in full_ident:
+        identificador += ident + ' '
+    identificador = identificador[:-1]
+
+    info = list(InfoCard(identificador).get_card())
     if info[1] == 'not found':
         embed = discord.Embed(
             title="Oceanic | Servicios",
@@ -116,6 +122,6 @@ async def dossier(name:str):
     await bot.say(Dossier().get_dossier(name))
 
 # RolBot-9000
-bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJnDKw.4ehhHUJtoWT7rslw-gzRinIrZVE')
+# bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJnDKw.4ehhHUJtoWT7rslw-gzRinIrZVE')
 # Testbot-9000
-# bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')
+bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')
