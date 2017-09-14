@@ -23,9 +23,9 @@ class DBAdapter:
         self.url = urlparse.urlparse(os.environ['DATABASE_URL'])
         self.database = self.url.path[1:]
         self.user = self.url.username
-        password = self.url.password
-        host = self.url.hostname
-        port = self.url.port
+        self.password = self.url.password
+        self.host = self.url.hostname
+        self.port = self.url.port
 
     def __test_connection(self):
         self.database = 'RolBot-9000'
