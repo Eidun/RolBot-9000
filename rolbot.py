@@ -1,8 +1,4 @@
 import discord
-from discord.ext import commands
-from roliador import Roliador
-from dossier import  Dossier
-from discord import Client
 from memes import Memes
 from discord.ext import commands
 from dossier import Dossier
