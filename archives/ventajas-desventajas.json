@@ -1,0 +1,169 @@
+{
+	"ventajas": {
+		"ventajas": [{
+			"name": "Afortunado", "puntos":"(2 puntos por rango. Maximo 9)","value": "[Ver libro Akuma]"
+		},
+		{
+			"name": "Agresivo", "puntos":"(3/6 puntos) [Incremental]",
+			"value": "puntos: +1 tirada de ataque de armas cuerpo a cuerpo\npuntos: +1 tirada de dano de armas cuerpo a cuerpo"
+		},
+		{
+			"name": "Agudeza Auditiva","puntos":"(2/4 puntos) [Incremental]",
+			"value": "puntos: +3 chequeo percepcion usando el oido\npuntos: Te permite reducir automaticamente la Ceguera Completa a Ceguera Parcial o negar esta ultima, unicamente en cuerpo a cuerpo en ambos casos"
+		},
+		{
+			"name": "Agudeza tactil","puntos":"(2 puntos)",
+			"value": "Otorga +2 a Criminal, Reparaciones y Seguridad"
+		},
+		{
+			"name": "Agudeza Visual","puntos":" (2/4 puntos)",
+			"value": "puntos: +3 chequeo percepcion usando la vista.\npuntos: Te permite reducir automaticamente la Ceguera Completa a Ceguera Parcial o negar esta ultima por visibilidad a largas distancias"
+		},
+		{
+			"name": "Alentador","puntos":"(3 puntos)",
+			"value": "Te permite elegir un bono extra mas de las ventajas otorgadas tras ganar la tirada de liderazgo"
+		},
+		{
+			"name": "Aliado Misterioso","puntos":"(Variable)",
+			"value": "[Ver libro Akuma]"
+		},
+		{
+			"name": "Buen Sentido Comun","puntos":" (3 puntos)",
+			"value": "Posees la capacidad de valorar las situaciones, con lo que podras preguntar al DJ que dice tu sentido comun acerca de si algo es factible, arriesgado o incluso pedirle consejo (cosa que hara con los datos que considere que posees)."
+		},
+		{
+			"name": "Defensivo","puntos":" (3/6 puntos)",
+			"value": "puntos: +1 al NO de la defensa\npuntos: +2 al NO de la defensa"
+		},
+		{
+			"name": "Entrada Cinematografca","puntos":" (4 puntos)",
+			"value": "[Ver libro Akuma]"
+		},
+		{
+			"name": "Espiritu Hueco","puntos":" (3 puntos)",
+			"value": "Tiras 1g1 mas contra toda resistencia elemental. Tu anillo de vacio se reduce en 1. "
+		},
+		{
+			"name": "Evitar las Garras de la Muerte","puntos":" (4 puntos)",
+			"value": " Puedes gastar un punto de vacio para recuperar el sentido una vez en inconsciente y evitar los efectos de la muerte (de darse el caso) durante un turno."
+		},
+		{
+			"name": "Experto Marcial","puntos":" (4 puntos)",
+			"value": "El personaje conoce 5 tipos de armas en vez de 4 por cada tabla marcial que domine."
+		},
+		{
+			"name": "Garras de Kami","puntos":" (3 punto)",
+			"value": "[Ver libro Akuma]"
+		},
+		{
+			"name": "Giro de la Trama","puntos":" (7 puntos)",
+			"value": "[Ver libro Akuma]"
+		},
+		{
+			"name": "La Muerte en Persona","puntos":" (4 puntos)",
+			"value": "Un valor de los dados utilizados para calcular el dano (no se cuentan los valores extra por 6) se vuelve dano critico que no puede ser reducido. El personaje no puede realizar ningun ataque que no tenga intencion letal. "
+		},
+		{
+			"name": "Lider Innato.","puntos":" (3/6 puntos)",
+			"value": "puntos: Tienes un carisma innegable que hace que los demas te vean como una persona a la que seguir. Recibes un bono de +3 Liderazgo. \npuntos: Por el gasto de 1 punto de vacio durante todo el combate. Aquellos bajo tu mando reciben uno de los cuatro siguientes bonifcadores: +1D Ini, +1L0 al Dano, +2 ataque, +2 NO defensa"
+		},
+		{
+			"name": "Medium","puntos":" (2 punto)",
+			"value": "[Ver libro Akuma]"
+		},
+		{
+			"name": "Poder Innato","puntos":" (9 puntos)",
+			"value": "Empiezas el juego con un poder adicional a los permitidos."
+		},
+		{
+			"name": "Precognicion","puntos":" (4 puntos)",
+			"value": "[Ver libro Akuma]"
+		},
+		{
+			"name": "Presencia Efimera","puntos":" (2/4 punto)",
+			"value": "[Ver libro Akuma] (Sustituye Pf por gasto de punto de vacio)"
+		},
+		{
+			"name": "Robusto","puntos":" (4 puntos)",
+			"value": "En el calculo de los puntos de vida se considera que tu anillo de tierra tiene +1"
+		},
+		{
+			"name": "Tatuaje Chigrinski","puntos":" (3 puntos)",
+			"value": "El arma zenryoku se convierte en un tatuaje. El poder se ejerce a traves de artes marciales o pelea."
+		},
+		{
+			"name": "Tirador de elite","puntos":"(3/6 puntos) [Incremental]",
+			"value": "puntos: +1 tirada de ataque de armas de fuego\npuntos: +1 tirada de dano de armas de fuego"
+		},
+		{
+			"name": "Tranquilo","puntos":" (3 puntos)",
+			"value": "[Ver libro Akuma]"
+		},
+		{
+			"name": "Trasfondo Superior","puntos":" (4 puntos)",
+			"value": "Eliges una opcion a tu gusto en los registros de la tabla de historial. El Master elige otra para ti por las molestias."
+		},
+		{
+			"name": "Peon del gran juego","puntos":" (6 puntos)",
+			"value": "Eres un arcano en la mano de Baram. Bienvenido a las grandes ligas. Dantiria lo fue, y mira lo bien que se lo paso."
+		}],
+		"desventaja-extra": {
+			"name": "Mortadela (4 puntos)",
+			"value": "No eres bueno en eso de los idiomas, tienes tu lengua natal y da gracias. No puedes desarrollar la habilidad idiomas."
+		},
+		"no-permitidas": [{
+			"value": "Astuto (Razon: No oporta beneficio)"
+		},
+		{
+			"value": "Bendicion elemental (Razon: Equilibrio)"
+		},
+		{
+			"value": "Conocimiento prohibido (Razon: No oporta beneficio)"
+		},
+		{
+			"value": "Equipo gaijin (Razon: No oporta beneficio)"
+		},
+		{
+			"value": "Escuela diferente (Razon:No oporta beneficio)"
+		},
+		{
+			"value": "Idioma (Razon: Equilibrio)"
+		},
+		{
+			"value": "Liderazgo (Razon: Equilibrio)"
+		},
+		{
+			"value": "Prodigio (Razon: Equilibrio)"
+		},
+		{
+			"value": "Querido en la corte (Razon: No oporta beneficio)"
+		},
+		{
+			"value": "Rico (Razon: No oporta beneficio)"
+		},
+		{
+			"value": "Desventaja social (Razon: No oporta desventaja)"
+		},
+		{
+			"value": "Dubitativo (Razon: No oporta desventaja)"
+		},
+		{
+			"value": "Infame (Razon: No oporta desventaja)"
+		},
+		{
+			"value": "Mancha de las tierras sombrias (Razon: No se puede escoger si eres akuma)"
+		},
+		{
+			"value": "Nombre gaijin (Razon: No oporta desventaja)"
+		},
+		{
+			"value": "Oveja negra (Razon: No oporta desventaja)"
+		},
+		{
+			"value": "Rehen (Razon: Equilibrio)"
+		},
+		{
+			"value": "Retiro obligado (Razon: No oporta desventaja)"
+		}]
+	}
+}

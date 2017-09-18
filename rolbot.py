@@ -1,8 +1,13 @@
 import discord
 from discord.ext import commands
-import random
 from roliador import Roliador
 from dossier import  Dossier
+from discord import Client
+from memes import Memes
+from discord.ext import commands
+from dossier import Dossier
+from roliador import Roliador
+from jsonreader import Reader
 
 description = '''Soy RolBot9000, un ente interdimensional capaz de viajar entre los diferentes universos y mundos.
 
@@ -72,7 +77,67 @@ async def dossier(name:str):
 
     await bot.say(Dossier().get_dossier(name))
 
+
+@bot.command(pass_context=True)
+async def meme(ctx, name:str):
+    """El humor es lo más sano del mundo, riámonos con los
+    memes personalizados de los jugadores.
+    Reacciones aceptadas
+    malvado
+    mafioso
+    meto_maldad
+        """
+
+    print(name)
+    with open(Memes().get_meme(name), 'rb') as f:
+        await bot.send_file(ctx.message.channel, f)
+
+    @bot.command(pass_context=True)
+    async def meme(ctx, name: str):
+        """El humor es lo más sano del mundo, riámonos con los
+        memes personalizados de los jugadores.
+        Reacciones aceptadas
+        malvado
+        mafioso
+        meto_maldad
+            """
+
+        print(name)
+        with open(Memes().get_meme(name), 'rb') as f:
+            await bot.send_file(ctx.message.channel, f)
+
+@bot.command(pass_context=True)
+async def new_rules(ctx, name: str, param1 = None):
+    """Nuevas reglas añadidas adaptadas de 5 anillos a Akuma.
+    Secciones
+        arquetipos
+        entrenamientos
+        flujo_de_creacion
+        historial
+        magia (proximamente)
+        reglas_generales (proximamente)
+        ventajas_desventajas
+        experiencia
+        habilidades (proximamente)"""
+    result = Reader().get_json(name, param1)
+    if(result.__len__() == 3):
+        out = result[0] + "\n para continuar, añade la reacción 👍"
+        msg = await wait_emoji(ctx.message.author, str(out), '👍')
+        out = result[1] + "\n para continuar, añade la reacción 👍"
+        await bot.delete_message(msg)
+        msg = await wait_emoji(ctx.message.author, str(out),'👍')
+        await bot.delete_message(msg)
+        out = result[2]+ "\n para finalizar, añade la reacción 👍"
+        msg = await wait_emoji(ctx.message.author, str(out),'👍')
+        await bot.delete_message(msg)
+    else:
+        await bot.send_message(ctx.message.author, result)
+
+async def wait_emoji(channel, message:str, emoji):
+    msg = await bot.send_message(channel, message)
+    ret = await bot.wait_for_reaction([emoji], message=msg)
+    return msg
 # RolBot-9000
-bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJnDKw.4ehhHUJtoWT7rslw-gzRinIrZVE')
-# Testbot-9000
-# bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')
+#bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJnDKw.4ehhHUJtoWT7rslw-gzRinIrZVE')
+# Subnorbot
+bot.run('MTg3MTY1MTAxODk4NDY1Mjgw.DJrz5g.bkoW0IGwnHj4CF0KF_tu9G-s_l8')

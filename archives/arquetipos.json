@@ -1,0 +1,280 @@
+{
+	"arquetipos": {
+		"categoria": [{
+			"name": "akuma",
+			"anillos": "fuego:2\nagua:2\ntierra:2\naire:2\nvacio:1\nSello: 1\n",
+			"puntos": "6 puntos a distribuir entre los atributos de los anillos (vacio y sello cuestan el doble)",
+			"tipos": [{
+				"name": "Bakemono",
+				"value": "+1Agua/+1Aire"
+			},
+			{
+				"name": "Oni",
+				"value": "+1Agua/+1Tierra"
+			},
+			{
+				"name": "Gaki",
+				"value": "+1Tierra/+1Agua "
+			},
+			{
+				"name": "Mahou Tsukai",
+				"value": " +1Fuego/+1Aire"
+			},
+			{
+				"name": "Tenshi",
+				"value": " +1Fuego/+1Tierra"
+			},
+			{
+				"name": "Yoma",
+				"value": "+1Aire/+1Fuego"
+			},
+			{
+				"name": "Devorador de pecados",
+				"value": " +1 Vacio"
+			}],
+			"limites": "Sello-4\nVacio-3\nResto-5",
+			"debilidades": "Como en akuma",
+			"poderes": "Como en akuma"
+		},
+		{
+			"name": "esper",
+			"anillos": "fuego:1\nagua:1\ntierra:1\naire:1\nvacio:2\nSello:0",
+			"puntos": "12 puntos a distribuir entre los atributos de los anillos (vacio cuesta el doble) o un Poder extra esper (cuesta el doble)",
+			"tipos": [{
+				"name": "Psicomentat",
+				"value": "+1Agua/+Tierra"
+			},
+			{
+				"name": "Tecnomentat",
+				"value": "+Aire/+Fuego"
+			}],
+			"limites": "Resistencia:2\nVoluntad:5\nFuerza:2\nPercepci車n:5\n Reflejos:3\nConsciencia:5\nAgilidad:3\nInteligencia:5\nVacio:4\nSello:0",
+			"poderes": "Como en akuma"
+		},
+		{
+			"name": "monje/juramentado",
+			"anillos": "fuego:2\nagua:2\ntierra:2\naire:2\nvacio:2\nSello: 1",
+			"puntos": "4 puntos a distribuir entre los atributos: voluntad, percepci車n, consciencia, inteligencia o el anillo de vacio o el sello. (vacio y sello cuestan el doble)",
+			"tipos": [{
+				"name": "Suzaku/Karura/Ling Guang",
+				"value": "+1Fuego"
+			},
+			{
+				"name": "Seiryu/Tsukiyomi/Qing Long",
+				"value": "+1 Agua"
+			},
+			{
+				"name": "Genbu/Okami/Zhi Ming",
+				"value": "+1 Tierra "
+			},
+			{
+				"name": "Byakko/Orochi/Bai Hu",
+				"value": " +1 Aire"
+			},
+			{
+				"name": "Inari/Kyomu/Huang Long",
+				"value": " +1 Vacio"
+			}],
+			"limites": "Sello-4\nVacio-4\nVoluntad,Percepcion,Consciencia,Inteligencia-5\nResto-3 (Solo aquellos incrementados por la bendici鏮 del Kami)",
+			"debilidades": "Como en akuma",
+			"poderes": "Como en Akuma",
+			"ofudas": "Como en Akuma",
+			"notas": "Nota: No hay division entre usuario de kidou o no. Tiene el potencial, luego puede aprender sus conjuros o no.\nNota2: En caso de ser Caballero juramentado, sustituir la bendicion del kami, por el voto primaris.",
+			"votos": [{
+				"voto": "No permitir que el impuro viva",
+				"value": "Bonus anillo: Aire +1"
+			},
+			{
+				"voto": "Aborrecer a la bruja, destruir al hechicero",
+				"value": "Fuego +1"
+			},
+			{
+				"voto": "Aceptar todo desaf赤o, sin importar las circunstancias",
+				"value": "Agua +1"
+			},
+			{
+				"voto": "Convertirse en el escudo de la humanidad",
+				"value": "Tierra +1"
+			},
+			{
+				"voto": "Mis obras son el camino del Se?or.",
+				"value": "Vacio +1"
+			},
+			{
+				"voto": "Juzgar en su nombre o ser juzgado por el de ello",
+				"value": "Sello +1"
+			}]
+		},
+		{
+			"name": "Shinsengumi/Ronin/Ikkitousen",
+			"anillos": "fuego:2\nagua:2\ntierra:2\naire:2\nvacio:2\nSello:0",
+			"puntos": "4 puntos a distribuir entre los atributos sin repetir: voluntad, percepci車n, consciencia, inteligencia o el anillo de vacio. (vacio cuesta el doble)",
+			"caminos": [{
+				"name": "La Espada",
+				"value": "Obtiene el primer rango dentro de una de las escuelas del bushido. "
+			},
+			{
+				"name": "El Alma",
+				"value": "Acceso a la senda menor del kidou"
+			}],
+			"bushido": {
+				"name": "Deja que tus antepasados te guien",
+				"value": "[Legado familiar]",
+				"legado": {
+					"shinsengumi": {
+						"dato": "Obtiene rango extra dentro de la escuela de su familia",
+						"caminos": [{
+							"name": "Aimura",
+							"value": "+1 anillo de aire, +1 Agilidad, +1 Inteligencia"
+						},
+						{
+							"name": "Higoi",
+							"value": " +1 anillo de agua, +1 Voluntad, +1 Reflejos"
+						},
+						{
+							"name": "Izakuchi",
+							"value": " +1 anillo de agua, +1 Agilidad, +1 Resistencia"
+						},
+						{
+							"name": "Kigakatsu",
+							"value": " +1 anillo de tierra, +1 Inteligencia,+1 Percepci車n"
+						},
+						{
+							"name": "Kitsunebi",
+							"value": " +1 anillo de fuego, +1 Inteligencia,+1 Agilidad"
+						},
+						{
+							"name": "Kuromamushi",
+							"value": " +1 anillo de fuego, +1 Consciencia,+1 Reflejos"
+						},
+						{
+							"name": "Ogami",
+							"value": " +1 anillo de agua, +1 Agilidad,+1 Consciencia"
+						},
+						{
+							"name": "Shiroboshi",
+							"value": " +1 anillo de aire, +1 Reflejos,+1 Percepci車n"
+						},
+						{
+							"name": "Yamashiro",
+							"value": " +1 anillo de tierra, +1 Fuerza,+1 Inteligencia, "
+						},
+						{
+							"name": "Yokohana",
+							"value": " +1 anillo de fuego, +1 Consciencia,+1 Inteligencia"
+						}]
+					},
+					"ikkitousen": {
+						"dato": "Recibe la maldici車n de la marca oscura.",
+						"caminos": [{
+							"name": "Hebi",
+							"value": "+1 anillo de agua,+1 Voluntad,+1 Reflejos"
+						},
+						{
+							"name": "Inuyasha",
+							"value": "+1 anillo de tierra, +1 Fuerza,+1 Inteligencia"
+						},
+						{
+							"name": "Uwazuru",
+							"value": "+1 anillo de vacio, +1 Consciencia, +1 Reflejos"
+						},
+						{
+							"name": "Mangetsu",
+							"value": "+1 anillo de aire,+1 Inteligencia,+1 Percepci車n"
+						},
+						{
+							"name": "Soshi",
+							"value": "+1 anillo de fuego,+1 Inteligencia,+1 Agilidad"
+						}]
+					}
+				}
+			},
+			"zenryoku": {
+				"name": "Confia en la espada que derrotar芍 el mal",
+				"value": "[Zenryoku]",
+				"zenryoku": "[Shinsengumi/Ikkitousen/Ronin] La esencia de la espada alma viene con 300 de Potencia a gastar en mejoras. No se puede usar para comprar puntos de anillo de vac赤o."
+			},
+			"ronin": {
+				"name": "La fuerza nace de la soledad",
+				"value": "[Sin legado](Solo Ronin)",
+				"legado": "Escoge +1 a dos anillos elementales diferentes que no sea sello. Obtienes 25 PPs a gastar inmediatamente como puntos de experiencia acumulados."
+			},
+			"poder": "Como Akuma",
+			"limites": "Todos: 4"
+		},
+		{
+			"name": "consagrado",
+			"anillos": "fuego:X\nagua:X\ntierra:X\naire:X\nvacio:X\nSello: X ",
+			"puntos": "[Ver creaci車n especial del guerrero consagrado]",
+			"limites": "Todo: 5"
+		},
+		{
+			"name": "espia/contratista/mago",
+			"anillos": "fuego:1\nagua:1\ntierra:1\naire:1\nvacio:1\nSello:0",
+			"especializacion": [{
+				"name": "espia",
+				"value": "Eres un agente entrenado. Obtienes +1 a uno de los anillos a excepci車n del sello, por a?os de disciplina y preparaci車n."
+			},
+			{
+				"name": "contratista",
+				"value": "Has hecho un pacto con un benefactor. Obtienes un poder especial cuyas condiciones se definir芍n con el master.."
+			},
+			{
+				"name": "mago",
+				"value": "Dispones de conocimiento y acceso a las sendas de magia menores."
+			}],
+			"tiempo": {
+				"dato": "[Incremental]",
+				"tabla":[
+				{
+					"years": "5",
+					"value": "Una habilidad rango 2 "
+				},
+				{
+					"years": "10",
+					"value": "Una habilidad rango 3 "
+				},
+				{
+					"years": "15",
+					"value": "Dos habilidad rango 2 "
+				},
+				{
+					"years": "20",
+					"value": "Dos habilidad rango 3 "
+				},
+				{
+					"years": "25",
+					"value": "Una habilidad rango 4 "
+				},
+				{
+					"years": "30",
+					"value": "Tres habilidad rango 2 "
+				},
+				{
+					"years": "35",
+					"value": "Dos habilidad rango 4 "
+				},
+				{
+					"years": "40",
+					"value": "Tres habilidad rango 3 "
+				}]
+			},
+			"ventajas": {
+				"dato": "6 puntos",
+				"ventajas": [{
+					"name": "espia",
+					"value": "Acceso a implantes de ciberaumentos. (Has trabajado bien, tu organizaci車n pone la billetera) Tienes acceso a hasta 4 aumentos a comentar con el Master."
+				},
+				{
+					"name": "contratista",
+					"value": "Te has vuelto lo suficientemente poderoso para invertir la situaci車n y trabajar para un Distribuidor. El que pone los pactos ahora eres tu. Ganas el poder de hacer pactos demoniacos."
+				},
+				{
+					"name": "mago",
+					"value": "Conoces lo suficiente del mundo para ser capaz de hacer un pacto con un kami y empezar a estudiar las sendas mayores. O por el contrario has descubierto el c車digo sangriento y bueno... ya no hay marcha atr芍s."
+				}]
+			},
+			"limites": "Agilidad, resistencia, fuerza y reflejos: 2\nResto: 5"
+		}]
+	}
+}
