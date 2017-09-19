@@ -1,7 +1,8 @@
 import discord
 import asyncio
 from discord.ext import commands
-import random
+from memes import Memes
+from jsonreader import Reader
 from roliador import Roliador
 from dossier import  Dossier
 from info_card import InfoCard
@@ -121,6 +122,53 @@ async def dossier(name:str):
         otros """
 
     await bot.say(Dossier().get_dossier(name))
+
+@bot.command(pass_context=True)
+async def new_rules(ctx, name: str, param1=None):
+    """Nuevas reglas añadidas adaptadas de 5 anillos a Akuma.
+    Secciones
+        arquetipos
+        entrenamientos
+        flujo_de_creacion
+        historial
+        magia (proximamente)
+        reglas_generales (proximamente)
+        ventajas_desventajas
+        experiencia
+        habilidades (proximamente)"""
+    result = Reader().get_json(name, param1)
+    if result.__len__() == 3:
+        out = result[0] + "\n para continuar, añade la reacción 👍"
+        msg = await wait_emoji(ctx.message.author, str(out), '👍')
+        out = result[1] + "\n para continuar, añade la reacción 👍"
+        await bot.delete_message(msg)
+        msg = await wait_emoji(ctx.message.author, str(out), '👍')
+        await bot.delete_message(msg)
+        out = result[2] + "\n para finalizar, añade la reacción 👍"
+        msg = await wait_emoji(ctx.message.author, str(out), '👍')
+        await bot.delete_message(msg)
+    else:
+        await bot.send_message(ctx.message.author, result)
+
+
+async def wait_emoji(channel, message: str, emoji):
+    msg = await bot.send_message(channel, message)
+    ret = await bot.wait_for_reaction([emoji], message=msg)
+    return msg
+
+
+@bot.command(pass_context=True)
+async def meme(ctx, name: str):
+    """El humor es lo más sano del mundo, riámonos con los
+    memes personalizados de los jugadores.
+    Reacciones aceptadas
+    malvado
+    mafioso
+    meto_maldad
+        """
+
+    with open(Memes().get_meme(name), 'rb') as f:
+        await bot.send_file(ctx.message.channel, f)
 
 
 if MODE == 0:

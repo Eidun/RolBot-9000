@@ -1,0 +1,25 @@
+{
+	"experiencia": {
+		"recompensas": [{
+			"cantidad": "1PX",
+			"value": "Sesión de juego"
+		},{
+			"cantidad": "1PX",
+			"value": "Méritos (Interpretación, honor, brillantez, valor, estrategia)"
+		},{
+			"cantidad": "1-2PX",
+			"value": "Logros de sesión"
+		},{
+			"cantidad": "1PX",
+			"value": "Más allá del deber"
+		},{
+			"cantidad": "1PX",
+			"value": "Operación completada"
+		}],
+		"iniciales": "Puntos iniciales para gastar en habilidades: 36PP",
+		"conversion": "Puntos Akuma/2,5 redondear hacia arriba.",
+		"notas": "El coste incremental de +25 por cada poder escogido se aplicara a cada grupo de 3 escogidos.\nLa especializacion de poder se obtiene de forma gratuita por desarrollo de la habilidad sobrenatural de combate correspondiente.\nPuedes invertir Potencia absorbida para obtener más especializaciones.\nLos hechizos se aprenden mediante el progreso en el rango de escuela de magia. Para aumentarlos sería como comprar tablas.",
+		"coste-anillos": "anillo elemental: 4xNivel (cada atributo)\nanillo vacio: 6xNivel\nanillo sello: 8xNivel",
+		"coste-habilidad": "Coste de habilidad = Rango habilidad"
+	}
+}
