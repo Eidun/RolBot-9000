@@ -48,13 +48,13 @@
 				"name": "Tecnomentat",
 				"value": "+Aire/+Fuego"
 			}],
-			"limites": "Resistencia:2\nVoluntad:5\nFuerza:2\nPercepci¨®n:5\n Reflejos:3\nConsciencia:5\nAgilidad:3\nInteligencia:5\nVacio:4\nSello:0",
+			"limites": "Resistencia:2\nVoluntad:5\nFuerza:2\nPercepciï¿½ï¿½n:5\n Reflejos:3\nConsciencia:5\nAgilidad:3\nInteligencia:5\nVacio:4\nSello:0",
 			"poderes": "Como en akuma"
 		},
 		{
 			"name": "monje/juramentado",
 			"anillos": "fuego:2\nagua:2\ntierra:2\naire:2\nvacio:2\nSello: 1",
-			"puntos": "4 puntos a distribuir entre los atributos: voluntad, percepci¨®n, consciencia, inteligencia o el anillo de vacio o el sello. (vacio y sello cuestan el doble)",
+			"puntos": "4 puntos a distribuir entre los atributos: voluntad, percepciï¿½ï¿½n, consciencia, inteligencia o el anillo de vacio o el sello. (vacio y sello cuestan el doble)",
 			"tipos": [{
 				"name": "Suzaku/Karura/Ling Guang",
 				"value": "+1Fuego"
@@ -75,7 +75,7 @@
 				"name": "Inari/Kyomu/Huang Long",
 				"value": " +1 Vacio"
 			}],
-			"limites": "Sello-4\nVacio-4\nVoluntad,Percepcion,Consciencia,Inteligencia-5\nResto-3 (Solo aquellos incrementados por la bendición del Kami)",
+			"limites": "Sello-4\nVacio-4\nVoluntad,Percepcion,Consciencia,Inteligencia-5\nResto-3 (Solo aquellos incrementados por la bendiciï¿½n del Kami)",
 			"debilidades": "Como en akuma",
 			"poderes": "Como en Akuma",
 			"ofudas": "Como en Akuma",
@@ -89,7 +89,7 @@
 				"value": "Fuego +1"
 			},
 			{
-				"voto": "Aceptar todo desaf¨ªo, sin importar las circunstancias",
+				"voto": "Aceptar todo desafï¿½ï¿½o, sin importar las circunstancias",
 				"value": "Agua +1"
 			},
 			{
@@ -108,7 +108,7 @@
 		{
 			"name": "Shinsengumi/Ronin/Ikkitousen",
 			"anillos": "fuego:2\nagua:2\ntierra:2\naire:2\nvacio:2\nSello:0",
-			"puntos": "4 puntos a distribuir entre los atributos sin repetir: voluntad, percepci¨®n, consciencia, inteligencia o el anillo de vacio. (vacio cuesta el doble)",
+			"puntos": "4 puntos a distribuir entre los atributos sin repetir: voluntad, percepciï¿½ï¿½n, consciencia, inteligencia o el anillo de vacio. (vacio cuesta el doble)",
 			"caminos": [{
 				"name": "La Espada",
 				"value": "Obtiene el primer rango dentro de una de las escuelas del bushido. "
@@ -137,7 +137,7 @@
 						},
 						{
 							"name": "Kigakatsu",
-							"value": " +1 anillo de tierra, +1 Inteligencia,+1 Percepci¨®n"
+							"value": " +1 anillo de tierra, +1 Inteligencia,+1 Percepciï¿½ï¿½n"
 						},
 						{
 							"name": "Kitsunebi",
@@ -153,7 +153,7 @@
 						},
 						{
 							"name": "Shiroboshi",
-							"value": " +1 anillo de aire, +1 Reflejos,+1 Percepci¨®n"
+							"value": " +1 anillo de aire, +1 Reflejos,+1 Percepciï¿½ï¿½n"
 						},
 						{
 							"name": "Yamashiro",
@@ -165,7 +165,7 @@
 						}]
 					},
 					"ikkitousen": {
-						"dato": "Recibe la maldici¨®n de la marca oscura.",
+						"dato": "Recibe la maldiciï¿½ï¿½n de la marca oscura.",
 						"caminos": [{
 							"name": "Hebi",
 							"value": "+1 anillo de agua,+1 Voluntad,+1 Reflejos"
@@ -180,7 +180,7 @@
 						},
 						{
 							"name": "Mangetsu",
-							"value": "+1 anillo de aire,+1 Inteligencia,+1 Percepci¨®n"
+							"value": "+1 anillo de aire,+1 Inteligencia,+1 Percepciï¿½ï¿½n"
 						},
 						{
 							"name": "Soshi",
@@ -190,9 +190,9 @@
 				}
 			},
 			"zenryoku": {
-				"name": "Confia en la espada que derrotar¨¢ el mal",
+				"name": "Confia en la espada que derrotarï¿½ï¿½ el mal",
 				"value": "[Zenryoku]",
-				"zenryoku": "[Shinsengumi/Ikkitousen/Ronin] La esencia de la espada alma viene con 300 de Potencia a gastar en mejoras. No se puede usar para comprar puntos de anillo de vac¨ªo."
+				"zenryoku": "[Shinsengumi/Ikkitousen/Ronin] La esencia de la espada alma viene con 300 de Potencia a gastar en mejoras. No se puede usar para comprar puntos de anillo de vacï¿½ï¿½o."
 			},
 			"ronin": {
 				"name": "La fuerza nace de la soledad",
@@ -205,7 +205,7 @@
 		{
 			"name": "consagrado",
 			"anillos": "fuego:X\nagua:X\ntierra:X\naire:X\nvacio:X\nSello: X ",
-			"puntos": "[Ver creaci¨®n especial del guerrero consagrado]",
+			"puntos": "[Ver creaciï¿½ï¿½n especial del guerrero consagrado]",
 			"limites": "Todo: 5"
 		},
 		{
@@ -213,11 +213,11 @@
 			"anillos": "fuego:1\nagua:1\ntierra:1\naire:1\nvacio:1\nSello:0",
 			"especializacion": [{
 				"name": "espia",
-				"value": "Eres un agente entrenado. Obtienes +1 a uno de los anillos a excepci¨®n del sello, por a?os de disciplina y preparaci¨®n."
+				"value": "Eres un agente entrenado. Obtienes +1 a uno de los anillos a excepciï¿½ï¿½n del sello, por a?os de disciplina y preparaciï¿½ï¿½n."
 			},
 			{
 				"name": "contratista",
-				"value": "Has hecho un pacto con un benefactor. Obtienes un poder especial cuyas condiciones se definir¨¢n con el master.."
+				"value": "Has hecho un pacto con un benefactor. Obtienes un poder especial cuyas condiciones se definirï¿½ï¿½n con el master.."
 			},
 			{
 				"name": "mago",
@@ -263,15 +263,15 @@
 				"dato": "6 puntos",
 				"ventajas": [{
 					"name": "espia",
-					"value": "Acceso a implantes de ciberaumentos. (Has trabajado bien, tu organizaci¨®n pone la billetera) Tienes acceso a hasta 4 aumentos a comentar con el Master."
+					"value": "Acceso a implantes de ciberaumentos. (Has trabajado bien, tu organizaciï¿½ï¿½n pone la billetera) Tienes acceso a hasta 4 aumentos a comentar con el Master."
 				},
 				{
 					"name": "contratista",
-					"value": "Te has vuelto lo suficientemente poderoso para invertir la situaci¨®n y trabajar para un Distribuidor. El que pone los pactos ahora eres tu. Ganas el poder de hacer pactos demoniacos."
+					"value": "Te has vuelto lo suficientemente poderoso para invertir la situaciï¿½ï¿½n y trabajar para un Distribuidor. El que pone los pactos ahora eres tu. Ganas el poder de hacer pactos demoniacos."
 				},
 				{
 					"name": "mago",
-					"value": "Conoces lo suficiente del mundo para ser capaz de hacer un pacto con un kami y empezar a estudiar las sendas mayores. O por el contrario has descubierto el c¨®digo sangriento y bueno... ya no hay marcha atr¨¢s."
+					"value": "Conoces lo suficiente del mundo para ser capaz de hacer un pacto con un kami y empezar a estudiar las sendas mayores. O por el contrario has descubierto el cï¿½ï¿½digo sangriento y bueno... ya no hay marcha atrï¿½ï¿½s."
 				}]
 			},
 			"limites": "Agilidad, resistencia, fuerza y reflejos: 2\nResto: 5"
