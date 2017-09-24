@@ -1,4 +1,5 @@
 import random
+import values
 
 
 class Roliador:
@@ -6,13 +7,14 @@ class Roliador:
     def __init__(self, faces=10, repeat=6):
         self.faces = faces
         self.repeat = repeat
+        self.initial = values.initial_number
 
     def roll(self, dices):
         results = []
         if self.faces < 1:
             return [0]
         for i in range(dices):
-            number = random.randint(5, self.faces)
+            number = random.randint(self.initial, self.faces)
             if number == self.repeat:
                 result = [number]
                 while number == self.repeat:
