@@ -13,9 +13,6 @@ Tengo la capacidad analítica de predecir resultados heróicos y fatales si se m
 
 bot = commands.Bot(command_prefix='!', description=description)
 
-if not discord.opus.is_loaded():
-    discord.opus.load_opus('opus')
-
 @bot.event
 async def on_ready():
     print('RolBot9000 iniciándose...')
