@@ -50,7 +50,8 @@ class Roliador:
         respond = "```ruby\n" + author.display_name + '\nD' + str(self.faces) + ":" + respond + "```"
         return respond
 
-    def custom_pretty_print_discord(self, author, results):
+    @staticmethod
+    def custom_pretty_print_discord(author, results):
         respond = ''
         for roll in range(results.__len__()):
             for face in results[roll].keys():
@@ -58,7 +59,8 @@ class Roliador:
         respond = "```ruby\n" + author.display_name + '\n' + respond + "```"
         return respond
 
-    def profeta(self, number: int):
+    @staticmethod
+    def profeta():
         respond = 'D10: 6+6+6+6+6+6+....EL MAAXIMO!!!'
         respond = "```css\n" + respond + "```"
         return respond
