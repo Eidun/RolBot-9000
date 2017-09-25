@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="863d688f-8c06-41c5-b567-0134a40285c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dossier/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dossier/dossier_cog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/offtopic/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/offtopic/offtopic_cog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roll/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roll/roll_cog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rules/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rules/rules_cog.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dossier.py" afterPath="$PROJECT_DIR$/dossier/dossier.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/info_card.py" afterPath="$PROJECT_DIR$/dossier/info_card.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsonreader.py" afterPath="$PROJECT_DIR$/rules/jsonreader.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/memes.py" afterPath="$PROJECT_DIR$/offtopic/memes.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/roliador.py" afterPath="$PROJECT_DIR$/roll/roliador.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rolbot.py" afterPath="$PROJECT_DIR$/rolbot.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/values.py" afterPath="$PROJECT_DIR$/values.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +76,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rolbot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rolbot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rolbot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -99,6 +84,16 @@
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="values.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/values.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,7 +128,6 @@
         <option value="$PROJECT_DIR$/jsonreader.py" />
         <option value="$PROJECT_DIR$/archives/experiencia.json" />
         <option value="$PROJECT_DIR$/roliador.py" />
-        <option value="$PROJECT_DIR$/values.py" />
         <option value="$PROJECT_DIR$/random.py" />
         <option value="$PROJECT_DIR$/randomroll.py" />
         <option value="$PROJECT_DIR$/cogs/roll.py" />
@@ -146,6 +140,7 @@
         <option value="$PROJECT_DIR$/rules/jsonreader.py" />
         <option value="$PROJECT_DIR$/offtopic/offtopic_cog.py" />
         <option value="$PROJECT_DIR$/rolbot.py" />
+        <option value="$PROJECT_DIR$/values.py" />
       </list>
     </option>
   </component>
@@ -788,14 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/values.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/traceback.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -932,6 +919,14 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/values.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
