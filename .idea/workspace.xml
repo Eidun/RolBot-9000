@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="863d688f-8c06-41c5-b567-0134a40285c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music/music_cog.py" afterPath="$PROJECT_DIR$/music/music_cog.py" />
-    </list>
+    <list default="true" id="863d688f-8c06-41c5-b567-0134a40285c1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,8 +99,8 @@
       <file leaf-file-name="music_cog.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/music/music_cog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="83" column="107" lean-forward="true" selection-start-line="83" selection-start-column="107" selection-end-line="83" selection-end-column="107" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -924,8 +922,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music/music_cog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="83" column="107" lean-forward="true" selection-start-line="83" selection-start-column="107" selection-end-line="83" selection-end-column="107" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
