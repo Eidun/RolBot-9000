@@ -69,6 +69,7 @@ class MusicCommands:
         https://rg3.github.io/youtube-dl/supportedsites.html
         """
         state = self.get_voice_state(ctx.message.server)
+        await self.bot.send_message(ctx.message.channel, "Vamos a intentarlo...")
         opts = {
             'default_search': 'auto',
             'quiet': True,
@@ -81,6 +82,7 @@ class MusicCommands:
 
         try:
             player = await state.voice.create_ytdl_player(song, ytdl_options=opts, after=state.toggle_next)
+            await self.bot.send_message(ctx.message.channel, "Conseguido?")
         except Exception as e:
             fmt = 'Ha habido un error: ```py\n{}: {}\n```'
             await self.bot.send_message(ctx.message.channel, fmt.format(type(e).__name__, e))
