@@ -11,7 +11,8 @@ Tengo la capacidad analítica de predecir resultados heróicos y fatales si se m
 modules = {'roll.roll_cog',
            'dossier.dossier_cog',
            'rules.rules_cog',
-           'offtopic.offtopic_cog'}
+           'offtopic.offtopic_cog',
+           'music.music_cog', }
 
 bot = commands.Bot(command_prefix='!', description=description)
 

@@ -4,7 +4,7 @@ from discord.ext import commands
 from offtopic.memes import Memes
 
 
-class DossierCog:
+class OffTopic_Commands:
 
     def __init__(self, bot):
         self.bot = bot
@@ -31,4 +31,4 @@ class DossierCog:
 
 
 def setup(bot):
-    bot.add_cog(DossierCog(bot))
+    bot.add_cog(OffTopic_Commands(bot))

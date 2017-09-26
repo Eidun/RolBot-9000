@@ -4,7 +4,7 @@ from dossier.dossier import Dossier
 from dossier.info_card import InfoCard
 
 
-class DossierCog:
+class DossierCommands:
 
     def __init__(self, bot):
         self.bot = bot
@@ -64,4 +64,4 @@ class DossierCog:
 
 
 def setup(bot):
-    bot.add_cog(DossierCog(bot))
+    bot.add_cog(DossierCommands(bot))

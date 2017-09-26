@@ -2,7 +2,7 @@ from discord.ext import commands
 from rules.jsonreader import Reader
 
 
-class RulesCog:
+class RulesCommands:
 
     def __init__(self, bot):
         self.bot = bot
@@ -41,4 +41,4 @@ class RulesCog:
 
 
 def setup(bot):
-    bot.add_cog(RulesCog(bot))
+    bot.add_cog(RulesCommands(bot))

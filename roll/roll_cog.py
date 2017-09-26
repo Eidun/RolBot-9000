@@ -3,7 +3,7 @@ from roll.roliador import Roliador
 import values
 
 
-class RollCog:
+class RollCommands:
 
     def __init__(self, bot):
         self.bot = bot
@@ -47,4 +47,4 @@ class RollCog:
 
 
 def setup(bot):
-    bot.add_cog(RollCog(bot))
+    bot.add_cog(RollCommands(bot))
