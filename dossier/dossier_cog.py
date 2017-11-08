@@ -24,7 +24,7 @@ class DossierCommands:
             embed = discord.Embed(
                 title="Oceanic | Servicios",
                 description="Lamentamos comunicarle que no tenemos información al respecto.",
-                color=0xFFFFFF
+                color=0x0f5ea3
             )
             embed.add_field(name="¿Quiere proporcionárnosla?", value="https://infobot9000.herokuapp.com")
         else:

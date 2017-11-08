@@ -2,7 +2,6 @@ import sys
 import traceback
 import discord
 from discord.ext import commands
-
 import values
 
 description = '''Soy RolBot9000, un ente interdimensional capaz de viajar entre los diferentes universos y mundos.
@@ -12,7 +11,9 @@ modules = {'roll.roll_cog',
            'dossier.dossier_cog',
            'rules.rules_cog',
            'offtopic.offtopic_cog',
-           'music.music_cog', }
+           'music.music_cog',
+           'economy.economy_cog',
+           'latest.latest'}
 
 bot = commands.Bot(command_prefix='!', description=description)
 
@@ -39,7 +40,7 @@ async def on_ready():
 
 if values.MODE == 0:
     # RolBot-9000
-    bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DJnDKw.4ehhHUJtoWT7rslw-gzRinIrZVE')
+    bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DOPbhw.lD-7aJqxOjx-NJRfbJ7HOpfFgEY')
 else:
     # Testbot-9000
     bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')
