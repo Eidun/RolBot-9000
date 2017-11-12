@@ -28,7 +28,7 @@ class RollCommands:
         number, faces = xdy.split('d', 1)
         roliador = Roliador(int(faces), -1)
         results = roliador.roll(int(number))
-        respond = roliador.pretty_print_discord(ctx.message.author, results)
+        respond = roliador.pretty_print_discord(ctx.message.author, results, 0)
 
         await self.bot.say(respond)
 
