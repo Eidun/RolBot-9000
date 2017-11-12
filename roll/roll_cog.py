@@ -17,8 +17,8 @@ class RollCommands:
         if modo == "PROFETA":
             respond = roliador.profeta()
         else:
-            results = roliador.roll(number)
-            respond = roliador.pretty_print_discord(ctx.message.author, results)
+            results, repeats = roliador.roll(number)
+            respond = roliador.pretty_print_discord(ctx.message.author, results, repeats)
 
         await self.bot.say(respond)
 

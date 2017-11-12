@@ -11,19 +11,21 @@ class Roliador:
 
     def roll(self, dices):
         results = []
+        count_repeat = 0
         if self.faces < 1:
             return [0]
         for i in range(dices):
             number = random.randint(self.initial, self.faces)
             if number == self.repeat:
                 result = [number]
+                count_repeat += 1
                 while number == self.repeat:
                     number = random.randint(1, self.faces)
                     result.append(number)
             else:
                 result = number
             results.append(result)
-        return results
+        return results, count_repeat
 
     def custom_roll(self, *dices):
         results = []
@@ -33,7 +35,7 @@ class Roliador:
                 results.append({self.faces: self.roll(1)[0]})
         return results
 
-    def pretty_print_discord(self, author, results):
+    def pretty_print_discord(self, author, results, repeats):
         respond = ''
         for i in range(results.__len__()):
             if isinstance(results[i], list):
@@ -47,6 +49,8 @@ class Roliador:
                 respond += '(' + str(repeat_sum) + ')'
             else:
                 respond += ' ' + str(results[i])
+        if repeats >= 3:
+            respond += '\n' + 'CRÍTICO!!!!'
         respond = "```ruby\n" + author.display_name + '\nD' + str(self.faces) + ":" + respond + "```"
         return respond
 
