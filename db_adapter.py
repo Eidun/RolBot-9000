@@ -48,3 +48,18 @@ class DBAdapter:
             for row in rows:
                 result = row
         return result
+
+    def get_agent(self, name):
+        cur = self.conn.cursor()
+        statement = "SELECT * from agents where name=%s"
+        cur.execute(statement, name)
+        rows = cur.fetchall()
+
+        result = []
+        if cur.rowcount == 0:
+            result.append('0')
+            result.append("not found")
+        else:
+            for row in rows:
+                result = row
+        return result
