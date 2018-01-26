@@ -8,6 +8,8 @@ class OffTopic_Commands:
 
     def __init__(self, bot):
         self.bot = bot
+        self.Meme = Memes()
+
 
     @commands.command()
     async def empanado(self, loser: discord.Member):
@@ -17,17 +19,28 @@ class OffTopic_Commands:
             await asyncio.sleep(3)
 
     @commands.command(pass_context=True)
-    async def meme(self, ctx, name: str):
+    async def meme(self, ctx, *name: str):
         """El humor es lo más sano del mundo, riámonos con los
         memes personalizados de los jugadores.
-        Reacciones aceptadas
-        malvado
-        mafioso
-        meto_maldad
-            """
-
-        with open(Memes().get_meme(name), 'rb') as f:
-            await self.bot.send_file(ctx.message.channel, f)
+        Para reacciones aceptadas, use !meme list"""
+        if(len(name)  != 0):
+            if(name[0]=="add"):
+                if(len(name) >= 3):
+                    message = self.Meme.add_meme(name[1], name[2])
+                else:
+                    message = "le faltan parametros al comando"
+            elif(name[0]=="list"):
+                message = self.Meme.get_list();
+            elif(name[0]=="delete" ):
+                if(len(name) >= 2):
+                    message = self.Meme.delete_meme(name[1])
+                else:
+                    message = "le faltan parametros al comando"
+            else:
+                    message = self.Meme.get_meme(name[0])
+        else:
+            message = "le faltan parametros al comando"
+        await self.bot.send_message(ctx.message.channel, message)
 
 
 def setup(bot):

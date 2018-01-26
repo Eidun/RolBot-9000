@@ -43,4 +43,7 @@ if values.MODE == 0:
     bot.run('MzU2NzExNTA3NjYyNDcxMTY4.DOPbhw.lD-7aJqxOjx-NJRfbJ7HOpfFgEY')
 else:
     # Testbot-9000
-    bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')
+    # bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')
+    # Subnorbot
+    bot.run('MTg3MTY1MTAxODk4NDY1Mjgw.DUfIfQ.DRTTJIsLBZ1I08iVXfEGOhzBDhQ')
+
