@@ -45,5 +45,5 @@ else:
     # Testbot-9000
     # bot.run('MTg3MTU3Nzk1MjA2ODU2NzA0.DJm8Sg.FyRDFpoSarSq2LC6wTpU3VfFTIQ')
     # Subnorbot
-    bot.run('MTg3MTY1MTAxODk4NDY1Mjgw.DUfIfQ.DRTTJIsLBZ1I08iVXfEGOhzBDhQ')
+    # bot.run('MTg3MTY1MTAxODk4NDY1Mjgw.DUfIfQ.DRTTJIsLBZ1I08iVXfEGOhzBDhQ')
 
